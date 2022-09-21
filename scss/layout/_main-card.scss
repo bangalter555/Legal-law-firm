@@ -1,0 +1,10 @@
+@use "../variables/colours" as c;
+
+.main-card {
+  width: 95%;
+  height: 90%;
+  // border: 1px solid c.$second-gray;
+  left: 0;
+  display: flex;
+  flex-flow: row;
+}

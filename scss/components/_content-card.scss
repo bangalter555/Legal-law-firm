@@ -1,0 +1,24 @@
+@use "../variables/colours" as c;
+
+.content-card {
+  width: 60%;
+  height: 100%;
+  // border: 1px solid c.$second-gray;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+
+  div {
+    width: 100%;
+    height: 22%;
+  }
+}
+
+.title {
+  background-color: c.$first-gray;
+  margin-bottom: 3%;
+}
+
+.option {
+  background-color: c.$second-gray;
+}
